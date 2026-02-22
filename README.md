@@ -1,1 +1,189 @@
 # ivanaladic.github.io
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ivan Aladic | Cybersecurity Analyst</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body {
+    font-family: 'Inter', sans-serif;
+    background:#f5f6f8;
+    color:#1a1a1a;
+    line-height:1.6;
+}
+
+.container {
+    max-width: 950px;
+    margin: 60px auto;
+    background: white;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+header {
+    margin-bottom:40px;
+}
+
+h1 {
+    font-size:28px;
+    font-weight:700;
+}
+
+.subtitle {
+    color:#555;
+    margin-top:5px;
+}
+
+.section {
+    margin-bottom:40px;
+}
+
+.section h2 {
+    font-size:18px;
+    margin-bottom:15px;
+    border-bottom:1px solid #e0e0e0;
+    padding-bottom:6px;
+    font-weight:600;
+}
+
+.card {
+    margin-bottom:20px;
+}
+
+.card h3 {
+    font-size:15px;
+    font-weight:600;
+}
+
+.card span {
+    font-size:13px;
+    color:#777;
+}
+
+ul {
+    margin-left:18px;
+    margin-top:8px;
+}
+
+.contact a {
+    color:#1a1a1a;
+    text-decoration:none;
+}
+
+.contact a:hover {
+    text-decoration:underline;
+}
+
+@media(max-width:768px){
+    .container { padding:30px; }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<header>
+    <h1>Ivan Aladic</h1>
+    <div class="subtitle">Cybersecurity Analyst | SOC Level 1 | Madrid, Spain</div>
+</header>
+
+<div class="section">
+    <h2>Profile</h2>
+    <p>
+        Dedicated and analytical Cybersecurity Junior specializing in threat detection,
+        incident response, and log analysis. Strong foundation in Linux systems,
+        networking fundamentals, and low-level programming (C & Shell from 42 Piscine).
+        Seeking an entry-level SOC Analyst position.
+    </p>
+</div>
+
+<div class="section">
+    <h2>Technical Skills</h2>
+    <p><strong>Security Tools:</strong> Splunk (SIEM), Wireshark, Nmap, Metasploit, OWASP ZAP, ELK Stack</p>
+    <p><strong>Operating Systems:</strong> Linux (Kali, Ubuntu), Windows Server/Client</p>
+    <p><strong>Networking:</strong> TCP/IP, OSI Model, DNS, DHCP, Firewall Configuration, Network Segmentation</p>
+    <p><strong>Scripting:</strong> Bash, PowerShell</p>
+    <p><strong>Security Concepts:</strong> Incident Response, Threat Hunting, Vulnerability Analysis, CIA Triad, System Hardening</p>
+</div>
+
+<div class="section">
+    <h2>Cybersecurity Experience</h2>
+
+    <div class="card">
+        <h3>SOC 1 Analyst (Simulation) – TryHackMe</h3>
+        <span>2024 – 2025</span>
+        <ul>
+            <li>Completed 30+ defensive security paths and CTF investigations.</li>
+            <li>Analyzed network traffic and logs using Splunk and Wireshark.</li>
+            <li>Identified malware indicators, lateral movement, and C2 communication.</li>
+            <li>Performed vulnerability assessments using Nmap and OWASP ZAP.</li>
+            <li>Applied system hardening techniques on Linux and Windows environments.</li>
+        </ul>
+    </div>
+
+</div>
+
+<div class="section">
+    <h2>42 Piscine – C & Shell Projects</h2>
+
+    <div class="card">
+        <h3>Libft</h3>
+        <ul>
+            <li>Recreated core C standard library functions from scratch.</li>
+            <li>Advanced pointer manipulation and memory allocation management.</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h3>ft_printf</h3>
+        <ul>
+            <li>Built a custom implementation of printf using variadic functions.</li>
+            <li>Handled format parsing and memory-safe string formatting.</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h3>Shell & UNIX Projects</h3>
+        <ul>
+            <li>Process control, pipes, file descriptors, and permissions.</li>
+            <li>Bash scripting for automation and system tasks.</li>
+        </ul>
+    </div>
+
+</div>
+
+<div class="section">
+    <h2>Professional Experience</h2>
+
+    <div class="card">
+        <h3>Contract Manager – UHG Galway, Ireland</h3>
+        <span>2018 – 2024</span>
+        <ul>
+            <li>Enforced compliance policies and managed confidential documentation.</li>
+            <li>Worked cross-functionally with IT and operations in regulated environments.</li>
+            <li>Maintained high integrity and structured reporting processes.</li>
+        </ul>
+    </div>
+
+</div>
+
+<div class="section contact">
+    <h2>Contact</h2>
+    <p>Madrid, Spain</p>
+    <p>Email: <a href="mailto:aladicivan2@gmail.com">aladicivan2@gmail.com</a></p>
+    <p>Phone: 691650958</p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/ivanaladic/" target="_blank">linkedin.com/in/ivanaladic</a></p>
+</div>
+
+</div>
+
+</body>
+</html>
